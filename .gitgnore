@@ -1,0 +1,36 @@
+# Dependencies
+vendor/
+
+# Environment
+.env
+.env.local
+
+# Uploads (personal images)
+uploads/
+
+# Test files
+test.php
+test_login.php
+test_post.php
+test_post2.php
+
+# Setup scripts (delete after use)
+scripts/crea_admin.php
+scripts/seed.php
+crea_cartelle.php
+fix_permessi.php
+
+# Logs
+*.log
+error_log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
